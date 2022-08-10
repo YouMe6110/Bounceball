@@ -18,6 +18,7 @@ export class Ball {
         ctx.fillStyle = '#fdd700';
         ctx.beginPath();
         ctx.arc(this.x, this.y, this.radius, 0, 2 * Math.PI);
+        ctx.fill();
     }
 
     bounceWindow(stageWidth, stageHeight) {
